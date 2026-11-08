@@ -1,0 +1,30 @@
+.git
+.env
+.DS_Store
+airflow_settings.yaml
+__pycache__/
+astro
+.venv
+.astro/standalone/
+.astro/worktrees/
+airflow-webserver.pid
+webserver_config.py
+airflow.cfg
+airflow.db
+.astro/*.local.yml
+.astro/*.local.yaml
+
+**/.astro/dbt_metadata.json
+**/.astro/*manifest*.slim.json
+
+# Local Astro runtime files
+.astro/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Local logs and virtual environments
+logs/
+.venv/
+venv/
